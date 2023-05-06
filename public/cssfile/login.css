@@ -1,0 +1,91 @@
+/* Set background color */
+body {
+    background-image: url("/images/background3.jpeg");
+    background-size: cover;
+  }
+  .container {
+    max-width: 1000px;
+    max-height: 1000px; /* atur lebar maksimum container */
+  }
+
+  .form-floating {
+    width: 100%; /* atur lebar elemen form */
+  }
+
+
+  /* Set card styles */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .card-header {
+    background-color: #007bff;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  /* Set form styles */
+  .form-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .form-control {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .form-control:focus {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  /* Style for the Login heading */
+.card-title {
+    font-size: 2rem;
+    text-align: center; /* Example font size */
+    font-family: 'Arial', sans-serif; /* Example font family */
+  }
+
+  /* Style for the Email address label */
+  .form-label {
+    font-size: 1.2rem; /* Example font size */
+    font-family: 'Helvetica Neue', sans-serif; /* Example font family */
+  }
+
+  /* Style for the Password label */
+  #password.form-label {
+    font-size: 1.2rem; /* Example font size */
+    font-family: 'Helvetica Neue', sans-serif; /* Example font family */
+  }
+
+  /* Style for the input fields */
+  .form-control {
+    font-size: 1rem; /* Example font size */
+    font-family: 'Open Sans', sans-serif; /* Example font family */
+  }
+
